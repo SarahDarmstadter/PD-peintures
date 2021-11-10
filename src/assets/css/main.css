@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CormorantGaramond-Regular';
+    src: url('../police/CormorantGaramond-Regular.ttf') format("trueType")
+  } 
+
+body
+{
+    font-family: 'CormorantGaramond-Regular';
+}
