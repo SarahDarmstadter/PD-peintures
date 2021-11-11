@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="home"></div>9
+    <div id="home"></div>
     <router-view/>
   </div>
 </template>
@@ -12,6 +12,11 @@
     src: url('./assets/police/CormorantGaramond-Regular.ttf') format("trueType")
   }
 
+  @font-face {
+    font-family:'Prata-Regular';
+    src: url('./assets/police/Prata/Prata-Regular.ttf') format("trueType");
+  }
+
   *, ::before, ::after{
     box-sizing: border-box;
     margin:0;
@@ -19,7 +24,7 @@
   }
 
   body{
-    font-family: 'CormorantGaramond-Regular';
+    font-family: 'Prata-Regular';
   }
 
 

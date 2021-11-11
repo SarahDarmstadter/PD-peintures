@@ -34,13 +34,14 @@ export default {
 
 h1 {
 margin-top: 3%;
+font-size: 1.8em;
 }
 
 .nav__link{
   text-decoration: none;
   color: black;
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .nav__link:hover{
