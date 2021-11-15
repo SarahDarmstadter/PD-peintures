@@ -20,6 +20,10 @@
        display: flex;
    }
 
+   #bottom__page{
+       display: block;
+   }
+
    .contact{
        margin-left: 5px;
        margin-top: 10px;
@@ -47,6 +51,20 @@
    }
    .copyright p {
        margin-right: 8px;
+   }
+
+   @media screen and (max-width: 767px){
+       .container {
+           flex-direction: column;
+       }
+
+       .copyright{
+           flex-direction: column;
+           margin-left: 0;
+       }
+       .copyright p {
+           margin-bottom: 2px;
+       }
    }
 
 </style>

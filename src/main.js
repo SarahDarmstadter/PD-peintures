@@ -5,9 +5,9 @@ import store from './store'
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/css/main.css';
-import BootstrapVue from 'bootstrap-vue'
+import Vue2TouchEvents from 'vue2-touch-events'
 
-Vue.use(BootstrapVue);
+Vue.use(Vue2TouchEvents) 
 Vue.config.productionTip = false
 
 

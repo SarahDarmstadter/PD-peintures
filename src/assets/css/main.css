@@ -1,9 +1,25 @@
 @font-face {
-    font-family: 'CormorantGaramond-Regular';
-    src: url('../police/CormorantGaramond-Regular.ttf') format("trueType")
-  } 
+  font-family: 'CormorantGaramond-Regular';
+  src: url('../police/CormorantGaramond-Regular.ttf') format("trueType")
+}
+
+@font-face {
+  font-family:'Prata-Regular';
+  src: url('../police/Prata/Prata-Regular.ttf') format("trueType");
+}
+
+@font-face {
+  font-family:'c';
+  src: url('../police/Old_Standard_TT/OldStandardTT-Regular.ttf') format("trueType");
+}
+
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
 
 body
 {
-    font-family: 'CormorantGaramond-Regular';
+    font-family: 'OldStandardTT-Regular';
 }

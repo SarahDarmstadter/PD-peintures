@@ -1,6 +1,6 @@
 <template>
 <div class="header">
-  <header>
+  <div>
     <div class="container">
       <h1 class= "d-flex justify-content-center"> PIERRE DARMSTADTER </h1>
       <nav>
@@ -15,7 +15,7 @@
         </ul>          
       </nav>
     </div>
-  </header>
+  </div>
 </div>
   
 </template>
@@ -35,6 +35,7 @@ export default {
 h1 {
 margin-top: 3%;
 font-size: 1.8em;
+font-family: 'Prata-Regular';
 }
 
 .nav__link{
@@ -79,6 +80,16 @@ span {
 
    .nav__link{
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 424px){
+  h1{
+    font-size: 1em;
+  }
+
+  .container{
+    margin-top: 10%
   }
 }
 
